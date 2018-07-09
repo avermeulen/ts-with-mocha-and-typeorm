@@ -1,0 +1,28 @@
+{
+  "name": "ts-with-mocha-and-typeorm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/ts-mocha test/*.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/mocha": "^5.2.3",
+    "@types/node": "^10.5.0",
+    "@types/sinon": "^5.0.1",
+    "mocha": "^5.2.0",
+    "sinon": "^6.0.1",
+    "ts-mocha": "^1.2.0",
+    "typescript": "^2.9.2"
+  },
+  "dependencies": {
+    "@types/express": "^4.16.0",
+    "express": "^4.16.3",
+    "reflect-metadata": "^0.1.12",
+    "sqlite3": "^4.0.1",
+    "typeorm": "^0.2.7"
+  }
+}
